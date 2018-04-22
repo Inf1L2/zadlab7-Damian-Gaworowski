@@ -37,7 +37,10 @@ public class punkt3d extends Punkt2d{
     punkt3d d = new punkt3d(a,b,c);
               return d;
     }
-    
+    public String toString() {
+        return "x=" + this.x + ", y=" + this.y + ", z=" + this.z;
+    }
+
 
 
 
